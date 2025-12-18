@@ -1,0 +1,33 @@
+import sortingExamples.BubbleSortExample;
+import sortingExamples.LinearAndBinarySortAlgo;
+import sortingExamples.SelectionSortExample;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        /*
+        * Arrays
+        *
+        * linear and binary search Example to find index of a value
+        *
+         */
+        LinearAndBinarySortAlgo linearAndBinarySortAlgo = new LinearAndBinarySortAlgo();
+//        linearAndBinarySortAlgo.runExample();
+
+        /*
+        * Bubble Sort Example
+        */
+        BubbleSortExample bubbleSortExample = new BubbleSortExample();
+//        bubbleSortExample.runExample();
+
+        /*
+        Selection Sort Example
+
+         */
+        SelectionSortExample selectionSortExample = new SelectionSortExample();
+        selectionSortExample.runExample();
+    }
+
+
+}
