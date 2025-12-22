@@ -1,4 +1,5 @@
 import sortingExamples.BubbleSortExample;
+import sortingExamples.InsertionSortExample;
 import sortingExamples.LinearAndBinarySortAlgo;
 import sortingExamples.SelectionSortExample;
 
@@ -26,8 +27,16 @@ public class Main {
 
          */
         SelectionSortExample selectionSortExample = new SelectionSortExample();
-        selectionSortExample.runExample();
+//        selectionSortExample.runExample();
+
+        /*
+        Insertion sort Example
+
+         */
+        InsertionSortExample insertionSortExample = new InsertionSortExample();
+        insertionSortExample.runExample();
     }
+
 
 
 }
