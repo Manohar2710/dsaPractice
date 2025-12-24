@@ -1,7 +1,4 @@
-import sortingExamples.BubbleSortExample;
-import sortingExamples.InsertionSortExample;
-import sortingExamples.LinearAndBinarySortAlgo;
-import sortingExamples.SelectionSortExample;
+import sortingExamples.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -34,7 +31,13 @@ public class Main {
 
          */
         InsertionSortExample insertionSortExample = new InsertionSortExample();
-        insertionSortExample.runExample();
+//        insertionSortExample.runExample();
+
+        /*
+        Quick Sort Example
+         */
+        QuickSortExample quickSortExample = new QuickSortExample();
+        quickSortExample.runExample();
     }
 
 
