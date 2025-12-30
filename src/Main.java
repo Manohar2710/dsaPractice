@@ -37,7 +37,13 @@ public class Main {
         Quick Sort Example
          */
         QuickSortExample quickSortExample = new QuickSortExample();
-        quickSortExample.runExample();
+//        quickSortExample.runExample();
+
+        /*
+        Merge Sort Example
+         */
+        MergeSortExample mergeSortExample = new MergeSortExample();
+        mergeSortExample.runExample();
     }
 
 

@@ -10,7 +10,7 @@ public class QuickSortExample {
         /*
         Sorting Logic
 
-        pseudo code
+        pseudocode
         function to get pivot point
         getPivotIndex(array, lowIndex, highIndex){
         array
