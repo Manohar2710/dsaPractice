@@ -43,7 +43,20 @@ public class Main {
         Merge Sort Example
          */
         MergeSortExample mergeSortExample = new MergeSortExample();
-        mergeSortExample.runExample();
+//        mergeSortExample.runExample();
+
+        /*
+        Linked List Example
+         */
+        LinkedListExample linkedListExample = new LinkedListExample();
+        linkedListExample.add(1);
+        linkedListExample.add(2);
+        linkedListExample.add(3);
+
+        linkedListExample.addFirst(4);
+
+        linkedListExample.delete(3);
+        System.out.println(linkedListExample);
     }
 
 
