@@ -56,7 +56,14 @@ public class Main {
         linkedListExample.addFirst(4);
 
         linkedListExample.delete(3);
-        System.out.println(linkedListExample);
+//        System.out.println(linkedListExample);
+
+
+        /*
+        Stack Example
+         */
+        StackExample stackExample = new StackExample();
+        stackExample.runExample();
     }
 
 
