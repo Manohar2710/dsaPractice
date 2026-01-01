@@ -63,7 +63,14 @@ public class Main {
         Stack Example
          */
         StackExample stackExample = new StackExample();
-        stackExample.runExample();
+//        stackExample.runExample();
+
+
+        /*
+        Queue Example
+         */
+        QueueExample queueExample = new QueueExample();
+        queueExample.runExample();
     }
 
 
