@@ -1,4 +1,5 @@
 import sortingExamples.*;
+import sortingExamples.treeEx.TreeExample;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -70,7 +71,10 @@ public class Main {
         Queue Example
          */
         QueueExample queueExample = new QueueExample();
-        queueExample.runExample();
+//        queueExample.runExample();
+
+        TreeExample treeExample = new TreeExample();
+        treeExample.runExample();
     }
 
 
